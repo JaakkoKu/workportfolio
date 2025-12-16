@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAAKKO KULMALA // PORTFOLIOt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Orbitron:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+    <div id="boot-screen">
+        <div id="boot-text"></div>
+        <div class="boot-bar-container">
+            <div id="boot-bar"></div>
+        </div>
+    </div>
+
+    <div class="container" id="main-interface">
+        
+        <nav>
+            <div class="logo">>> CYBER_DEFENSE_V1</div>
+            <div class="status">SYSTEM ONLINE ●</div>
+        </nav>
+
+        <header class="section">
+            <h1 class="hero-title">HELLO, I AM <span class="highlight-purple">JAAKKO KULMALA</span></h1>
+            <p class="hero-subtitle">// BBA 2.YEAR STUDENT // CYBERSECURITY ENTHUSIAST // CUSTOMER SERVICE PROFESSIOMAL</p>
+        </header>
+
+        <section class="section" id="about">
+            <h2>01 // Personnel File</h2>
+            <div class="about-grid">
+                <div class="profile-img-box">
+                    <img src="pictures/proffatestikuva2.png" alt="Profile">
+                    <div class="glitch-overlay"></div>
+                </div>
+                <div class="bio">
+                    <h3 class="bio-header">CLASSIFIED INFORMATION</h3>
+                    <p><strong>CURRENT STATUS:</strong> Available for Hire</p>
+                    
+                    <br>
+                    <p>
+                        I am highly motivated and detail-oriented cybersecurity enthusiast. 
+                        I enjoy finding solutions that can positively impact organization 
+                        and people it serves and highly value keeping sensitive 
+                        information secure and mitigate risk.
+                    </p>
+                    <br>
+                    <a href="pictures/JaakkoCV2025.pdf" class="resume-link">> /root/user/download_resume.pdf</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="certificates">
+            <h2>02 // Digital Vault</h2>
+            <div class="vault-grid">
+                
+                <div class="cert-card">
+                    <div class="cert-content">
+                        <h3 style="color:var(--neon-purple)">HACK THE BOX</h3>
+                        <img class="htbpic" src="pictures/HTBTRANSSCRIPT.png" alt="HTB Transcript">
+                        <p>Penetration Testing</p>
+                        <div class="verified-badge">NOVICE</div>
+                    </div>
+                    <div class="glass-shard shard-top"><img src="pictures/htblogopois.png" alt="HTBlogo" style="width: 7    0px; height: 70px;"></div>
+                    <div class="glass-shard shard-bottom"></div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-content">
+                        <h3 style="color:var(--neon-blue)">GOOGLE</h3>
+                        <p>Google Cybersecurity: Foundations >> Z7KOHLVETLY2</p>
+                       
+                        <p>Google Cybersecurity: Play it safe: Manage security risks <br>>> KV08O8BH0YPB</p>
+                        <p>All issued: 2025</p>
+                        <div class="verified-badge">VERIFIED VALID</div>
+                    </div>
+                    <div class="glass-shard shard-top" ><img src="pictures/g-logotaustapois.png" alt="g-logo" style="width: 50px; height: 50px;"></div>
+                    <div class="glass-shard shard-bottom"></div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-content">
+                        <h3 style="color:var(--neon-purple)">Microsoft</h3>
+                        <h4>SC-200 Path</h4>
+                        <p>Configure your Microsoft Sentinel environment</p>
+                        <div class="verified-badge">ELITE STATUS</div>
+                    </div>
+                    <div class="glass-shard shard-top"><img src="pictures/msoftlogo.png" alt="microsoftlogo" style="width:50px; height:50px;"></div>
+                    <div class="glass-shard shard-bottom"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>03 // Encrypted Channel</h2>
+            <div class="terminal-input">
+                <p class="terminal-notice">// NOTICE: TRANSMISSIONS ARE ENCRYPTED WITH FORMSPREE</p>
+                <form id ="contact-form" action = "https://formspree.io/f/mvgejgnq"
+                method ="POST">
+
+                    <div class="input-group">
+                        <label class="input-label">> SENDER_ID</label>
+                        <input type="text" name ="name" placeholder="Enter name...">
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label">> RETURN_PATH</label>
+                        <input type="email" name="emaiL" placeholder="email@server.com">
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label">> PAYLOAD</label>
+                        <textarea rows="4" name="message" placeholder="Message content..."></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn">EXECUTE_SEND()</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            SYSTEM ARCHITECTURE BY JAAKKO KULMALA &copy; 2025
+        </footer>
+    </div>
+    <div id="system-alert" class="hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>
