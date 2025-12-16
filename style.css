@@ -157,6 +157,35 @@ h2{
 .resume-link{
     color: var(--neon-blue);
     text-decoration: none;
+    background-color: purple;
+}
+@keyframes heartbeat{
+    0%{
+        transform: scale(1);
+    }
+    15%{
+        transform: scale(1.03);
+    }
+    30%{
+        transform: scale(1);
+    }
+    45%{
+        transform: scale(1.03);
+    }
+    60%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.resume-link:hover{
+    display: inline-block;
+    transition: 0.3s;
+    animation: heartbeat 5s ease-in-out infinite both;
+    color: rgb(51, 201, 51);
+    background-color: rgb(15, 0, 128);
 }
 
 /* --- CERTIFICATES: SHATTER EFFECT --- */
