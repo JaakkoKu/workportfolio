@@ -232,6 +232,15 @@ h2{
     color: #888;
     font-size: 0.9rem;
 }
+.cert-content a{
+    text-decoration: none;
+    color:var(--neon-green);
+}
+.cert-content a:hover{
+    color:var(--neon-blue);
+    transition: 0.3s;
+    border: var(--border);
+}
 
 .verified-badge{
     margin-top: 15px;
