@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
-    <!-- Google tag (gtag.js) -->
+        <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9Y0ZFZ3H5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -12,133 +12,252 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAAKKO KULMALA // PORTFOLIO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Orbitron:wght@500;900&display=swap" rel="stylesheet">
+    <title>Portfolio | Kyberturvallisuus & Ohjelmointi</title>
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="pictures/port_svg.svg">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
-    
-
-    <div id="boot-screen">
-        <div id="boot-text"></div>
-        <div class="boot-bar-container">
-            <div id="boot-bar"></div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo mono nav-trigger" data-target="home">&gt; MAIN_PAGE</span>
+            <div class="nav-links">
+                <button class="nav-trigger" data-target="home">Koti</button>
+                <button class="nav-trigger" data-target="about">Esittely</button>
+                <button class="nav-trigger" data-target="certificates">Sertifikaatit</button>
+                <button class="nav-trigger" data-target="projects">Projektit</button>
+                <a href="#contact" class="nav-link">Ota yhteyttä</a>
+            </div>
         </div>
-    </div>
+    </nav>
 
-    <div class="container" id="main-interface">
-        
-        <nav>
-            <div class="logo">>> JAAKKO / PORTFOLIO</div>
-            <div class="status">SYSTEM ONLINE ●</div>
-        </nav>
 
-        <header class="section">
-            <h1 class="hero-title">HELLO, I AM <span class="highlight-purple">JAAKKO KULMALA</span></h1>
-            <p class="hero-subtitle">// BBA 2.YEAR STUDENT // CYBERSECURITY ENTHUSIAST // CUSTOMER SERVICE PROFESSIOMAL</p>
-        </header>
-
-        <section class="section" id="about">
-            <h2>01 // Personnel File</h2>
-            <div class="about-grid">
-                <div class="profile-img-box">
-                    <img src="pictures/proffatestikuva2.png" alt="Profile">
-                    <div class="glitch-overlay"></div>
-                </div>
-                <div class="bio">
-                    <h3 class="bio-header">CLASSIFIED INFORMATION</h3>
-                    <p><strong>CURRENT STATUS:</strong> Available for Hire</p>
-                    
-                    <br>
-                    <p>
-                        Currently pursuing a Bachelor's degree in Business Administration in Hämeen ammattikorkeakoulu with a focus on Cybersecurity and back-end development.
-                        Passoniated about learning new skills and technologies in the field of cybersecurity back-end development.<br><br>
-                        Experienced in customer service roles, with a strong emphasis on communication and problem-solving skills on site.
-                        Eager to apply my knowledge and skills in a professional setting, contributing to the success of an organization.
+    
+    <main>
+        <section id="home" class="view active-view">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Kyberturvallisuuden tuleva<br><span class="highlight">asiantuntija.</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Keskityn turvalliseen ohjelmistokehitykseen, verkkoturvallisuuteen ja penetraatiotestaukseen. Rakennan ratkaisuja, jotka kestävät hyökkäyksiä.
                     </p>
-                    <br>
-                    <p><strong>SKILLS:</strong> Linux, SQL, Python, C#, Customer Service, Problem Solving, Communication</p>
+                    <button class="primary-btn nav-trigger" data-target="about">
+                        Lue tarkempi profiili <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </button>
                 </div>
-            </div>
-        </section>
-
-        <section class="section" id="certificates">
-            <h2>02 // Certificates</h2>
-            <div class="vault-grid">
                 
-                <div class="cert-card">
-                    <div class="cert-content">
-                        <h3 style="color:var(--neon-purple)">HACK THE BOX</h3>
-                        <img class="htbpic" src="pictures/HTBTRANSSCRIPT.png" alt="HTB Transcript">
-                        <p>Penetration Testing</p>
-                        <div class="verified-badge">BEGINNER</div>
+                <div class="hero-image-wrapper">
+                    <img src="pictures/profile_picture.png" alt="Profiilikuva" class="profile-img">
+                </div>
+            </div>
+
+            <div class="frontpage-certs-container">
+                <h2 class="mono text-muted mb-4 text-sm uppercase tracking-widest">Aktiiviset pätevyydet</h2>
+                <div class="cert-grid">
+                    <div class="cert-card border-emerald nav-trigger interactive-card" data-target="certificates">
+                        <div class="flex-between">
+                            <h3 class="cert-label text-emerald">Sertifikaatti</h3>
+                            <i class="fa-solid fa-up-right-from-square text-muted"></i>
+                        </div>
+                        <p class="cert-title">Google Professional Cybersecurity</p>
+                        <p class="cert-id">Suoritettu 1-7 osiot: 2025</p>
                     </div>
-                    <div class="glass-shard shard-top"><img src="pictures/htblogopois.png" alt="HTBlogo" style="width: 7    0px; height: 70px;"></div>
-                    <div class="glass-shard shard-bottom"></div>
+                    
+                    <div class="cert-card border-blue nav-trigger interactive-card" data-target="certificates">
+                        <div class="flex-between">
+                            <h3 class="cert-label text-blue">Sertifikaatti</h3>
+                            <i class="fa-solid fa-up-right-from-square text-muted"></i>
+                        </div>
+                        <p class="cert-title">Introduction to Programming With C#</p>
+                        <p class="cert-id">Suoritettu: 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="view hidden-view">
+            <div class="page-header">
+                <div>
+                    <h2 class="section-title">Kuka minä olen?</h2>
+                    <p class="section-desc mono">whoami</p>
+                </div>
+                <button class="back-btn nav-trigger" data-target="home">&larr; Takaisin</button>
+            </div>
+            
+            <div class="content-container glass p-8 rounded-2xl">
+                <h3 class="text-xl font-bold mb-4 text-emerald">Tausta ja Visio</h3>
+                <p class="text-muted mb-4 leading-relaxed">
+                    Tähän kirjoitat pitkän tarinasi. IT-alalle siirtyminen tai kyberturvallisuuteen erikoistuminen vaatii muutakin kuin vain koodaustaitoa; se vaatii "hacker mindsetiä". Kerro tässä, miten ratkot ongelmia, mikä ajaa sinua oppimaan uutta ja miksi yrityksen pitäisi palkata juuri sinut.
+                </p>
+                <p class="text-muted mb-4 leading-relaxed">
+                    Voit kertoa esimerkiksi harrastuneisuudestasi (CTF-haasteet kuten HackTheBox tai TryHackMe), kotilabrasta, jossa testaat asioita, tai ohjelmistoprojekteista, joissa olet implementoinut turvallisia käytäntöjä (OWASP Top 10).
+                </p>
+                
+                <h3 class="text-xl font-bold mt-8 mb-4 text-emerald">Tekninen pino</h3>
+                <ul class="tech-list text-muted">
+                    <li><strong class="text-main">Ohjelmointi:</strong> Python, JavaScript, Bash</li>
+                    <li><strong class="text-main">Työkalut:</strong> Nmap, Wireshark, Burp Suite, Metasploit</li>
+                    <li><strong class="text-main">Järjestelmät:</strong> Linux (Kali/Ubuntu), Windows Server, Docker</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certificates" class="view hidden-view">
+            <div class="page-header">
+                <div>
+                    <h2 class="section-title">Sertifikaatit ja Koulutukset</h2>
+                    <p class="section-desc">Todistettu osaaminen alan standardeilla.</p>
+                </div>
+                <button class="back-btn nav-trigger" data-target="home">&larr; Takaisin</button>
+            </div>
+
+            
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-shield"></i>
+                        <span class="status-badge active">Voimassa</span>
+                    </div>
+                    <h3 class="project-title">Google Professional Cybersecurity</h3>
+                    <p class="project-desc">
+                        Kattaa verkkoturvallisuuden, Pythonin, Linuxin ja SQL:än perusteet, uhkien tunnistamisen ja riskienhallinnan.
+                    </p>
+                    <div class="cert-details mt-4 text-sm text-muted">
+                        <p><strong>Suoritettu:</strong> 2025</p>
+                        <p><strong>Verify ID (LATEST):</strong>P5TK1GM3V9TJ</p>
+                    </div>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/P5TK1GM3V9TJ" target ="_blank" class="cert-verify-link mt-4 inline-block">Varmenna sertifikaatti &rarr;</a>
                 </div>
 
-                <div class="cert-card">
-                    <div class="cert-content">
-                        <h3 style="color:var(--neon-blue)">GOOGLE</h3>
-                        <p><a href="https://www.coursera.org/account/accomplishments/verify/Z7KOHLVETLY2" target="_blank">Foundations /</a><br>
-                            <a href="https://www.coursera.org/account/accomplishments/verify/KV08O8BH0YPB" target="_blank">Security risks /</a><br>
-                            <a href="https://www.coursera.org/account/accomplishments/verify/2HTH1RYQ6U9P" target="_blank">Networks /</a><br>
-                            <a href="https://www.coursera.org/account/accomplishments/verify/G5HHPCWM0O1Q" target="_blank">Linux and SQL /</a><br>
-                            <a href="https://www.coursera.org/account/accomplishments/verify/G12Z0NJH2ZR8" target="_blank">Assets, Threats, and Vulnerabilities /</a><br>
-                            <a href="https://www.coursera.org/account/accomplishments/verify/J7UMA5M4CQLK" target="_blank">Detection and Response /</a><br>
-                            <a href="https://www.coursera.org/account/accomplishments/verify/P5TK1GM3V9TJ" target="_blank">Automate Tasks with Python</a></p>
+                <div class="project-card">
+                    <div class="project-card-header">
                         
-                        <div class="verified-badge">COMPETENT</div>
+                        <i class="fa-solid fa-code"></i>
+                        <span class="status-badge active">Voimassa</span>
                     </div>
-                    <div class="glass-shard shard-top" ><img src="pictures/g-logotaustapois.png" alt="g-logo" style="width: 50px; height: 50px;"></div>
-                    <div class="glass-shard shard-bottom"></div>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-content">
-                        <h3 style="color:var(--neon-purple)">Microsoft</h3>
-                        <p><a href="https://learn.microsoft.com/en-us/users/jaakkokulmala-4063/" target="_blank">Microsoft learn sites</a></p>
-                        <p><a href="https://www.coursera.org/account/accomplishments/verify/UMGWT1D1U8VA" target ="_blank">Introduction to Programming With C#</a></p>
-
-                        <div class="verified-badge">BEGINNER</div>
+                    <h3 class="project-title">Introduction to Programming with C#</h3>
+                    <p class="project-desc">
+                        Ohjelmoinnin ja C#:in perusteet.
+                    </p>
+                    <div class="cert-details mt-4 text-sm text-muted">
+                        <p><strong>Suoritettu:</strong> 05/2025</p>
+                        <p><strong>Verify ID:</strong>UMGWT1D1U8VA</p>
                     </div>
-                    <div class="glass-shard shard-top"><img src="pictures/msoftlogo.png" alt="microsoftlogo" style="width:50px; height:50px;"></div>
-                    <div class="glass-shard shard-bottom"></div>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/UMGWT1D1U8VA" target ="_blank" class="cert-verify-link mt-4 inline-block">Varmenna sertifikaatti &rarr;</a>
                 </div>
-
+                
+                <div class="project-card placeholder">
+                    <p>Opiskelussa: Google professional Cybersecurity...</p>
+                </div>
             </div>
         </section>
 
-        <section class="section" id="contact">
-            <h2>03 // Encrypted Channel</h2>
-            <div class="terminal-input">
-                <p class="terminal-notice">// NOTICE: TRANSMISSIONS ARE ENCRYPTED WITH FORMSPREE</p>
-                <form id ="contact-form" action = "https://formspree.io/f/mvgejgnq"
-                method ="POST">
+        <section id="projects" class="view hidden-view">
+            <div class="projects-header">
+                <div>
+                    <h2 class="section-title">Tekniset projektit</h2>
+                    <p class="section-desc">Analyysit, koodit ja ratkaisut.</p>
+                </div>
+                <button class="back-btn nav-trigger" data-target="home">&larr; Takaisin</button>
+            </div>
 
-                    <div class="input-group">
-                        <label class="input-label">> SENDER_ID</label>
-                        <input type="text" name ="name" placeholder="Enter name...">
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-code icon-emerald"></i>
+                        <a href="https://github.com/JaakkoKu/Outcastsites" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
                     </div>
-                    <div class="input-group">
-                        <label class="input-label">> RETURN_PATH</label>
-                        <input type="email" name="emaiL" placeholder="email@server.com">
+                    <a href="https://github.com/JaakkoKu/Outcastsites" class="project-title-link" target="_blank"><h3 class="project-title">Outcastserver Wikisites</h3></a>
+                    <p class="project-desc">
+                        Wikityyppinen verkkosivusto aktiiviselle pelikommuunille tehty harrastetoimena, jota aktiivisesti päivitän edelleen. ReadME-tiedostosta löytyy tarkemmat dokumentoinnit sekä linkki sivustolle.
+                    </p>
+                    <div class="tag-group">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Javascript</span>
                     </div>
-                    <div class="input-group">
-                        <label class="input-label">> PAYLOAD</label>
-                        <textarea rows="4" name="message" placeholder="Message content..."></textarea>
+                </div>
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-code icon-emerald"></i>
+                        <a href="https://docs.google.com/document/d/1wn9oS7m41vCTC3sIoI-N-x-BXPa_hDtW/edit?usp=sharing&ouid=106982022398691645425&rtpof=true&sd=true" target="_blank" class="github-link"><i class="fa-regular fa-file-lines"></i></a>
                     </div>
-                    <button type="submit" id="submit-btn">EXECUTE_SEND()</button>
+                    <a href="https://docs.google.com/document/d/1wn9oS7m41vCTC3sIoI-N-x-BXPa_hDtW/edit?usp=sharing&ouid=106982022398691645425&rtpof=true&sd=true" class="project-title-link" target="_blank"><h3 class="project-title">Understanding DevOps: raportti</h3></a>
+                    <p class="project-desc">
+                        Raportti, jossa kerrotaan mitä DevOps tarkoittaa, käytännöt, periaatteet ja sen hyödyt työelämässä. Esimerkiksi otettu Netflix case-study. Työ on tehty Wordilla, mutta jaettu Google Docsin kautta.
+                    </p>
+                    <div class="tag-group">
+                        <span class="tag">DevOps</span>
+                        <span class="tag">CI/CD pipeline</span>
+                        <span class="tag">IaC</span>
+                        <span class="tag">SRE</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-code icon-emerald"></i>
+                        <a href="#" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="#" class="project-title-link" target="_blank"><h3 class="project-title">Header</h3></a>
+                    <p class="project-desc">
+                        
+                    </p>
+                    <div class="tag-group">
+                        <span class="tag">Robot Framework</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">UiPath</span>
+                    </div>
+                </div>
+                <!-- <div class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-code icon-emerald"></i>
+                        <a href="#" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="#" class="project-title-link" target="_blank"><h3 class="project-title">Header</h3></a>
+                    <p class="project-desc">
+                        
+                    </p>
+                    <div class="tag-group">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Javascript</span>
+                    </div>
+                </div> -->
+                <div class="project-card placeholder">
+                    <p>Uusi projekti tulossa...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-container glass">
+                <h2 class="section-title">Ota yhteyttä</h2>
+                <form action="https://formspree.io/f/mvgejgnq" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label class="mono">Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="mono">Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="mono">Message</label>
+                        <textarea name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">SEND</button>
                 </form>
-            </div>
-        </section>
+            </section>
+    </main>
 
-        <footer>
-            SYSTEM ARCHITECTURE BY JAAKKO KULMALA &copy; 2025
-        </footer>
-    </div>
-    <div id="system-alert" class="hidden"></div>
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2026 | Jaakko Kulmalan Portfolio | <span class="mono">No system is safe.</span></p>
+    </footer>
+
 </body>
 </html>
