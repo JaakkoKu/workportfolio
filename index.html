@@ -12,7 +12,7 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Kyberturvallisuus & Ohjelmointi</title>
+    <title>Portfolio | Jaakko Kulmala</title>
     
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -20,6 +20,9 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+
+
+    <!-- Navigation -->
 
     <nav class="navbar">
         <div class="nav-container">
@@ -35,7 +38,7 @@
     </nav>
 
 
-    
+    <!-- Etusivu ja main- alkukohta. Lyhyt esittely, kuva ja alla pari serttiä -->
     <main>
         <section id="home" class="view active-view">
             <div class="hero-container">
@@ -44,7 +47,7 @@
                         Järjestelmä<span class="highlight">asiantuntija</span>
                     </h1>
                     <p class="hero-desc">
-                        Keskityn turvalliseen opinnoissani ohjelmistokehitykseen, verkkoturvallisuuteen ja penetraatiotestaukseen. Rakennan ratkaisuja, jotka kestävät hyökkäyksiä.
+                        Keskityn opinnoissani turvalliseen ohjelmistokehitykseen, verkkoturvallisuuteen ja penetraatiotestaukseen. Rakennan ratkaisuja, jotka kestävät hyökkäyksiä.
                     </p>
                     <button class="primary-btn nav-trigger" data-target="about">
                         Lue tarkempi profiili <i class="fa-solid fa-arrow-right ml-2"></i>
@@ -56,6 +59,7 @@
                 </div>
             </div>
 
+            <!-- Etusivun sertit -->
             <div class="frontpage-certs-container">
                 <h2 class="mono text-muted mb-4 text-sm uppercase tracking-widest">Aktiiviset pätevyydet</h2>
                 <div class="cert-grid">
@@ -65,7 +69,7 @@
                             <i class="fa-solid fa-up-right-from-square text-muted"></i>
                         </div>
                         <p class="cert-title">Google Professional Cybersecurity</p>
-                        <p class="cert-id">Suoritettu 1-7 osiot: 2025</p>
+                        <p class="cert-id">Suoritettu 2026</p>
                     </div>
                     
                     <div class="cert-card border-blue nav-trigger interactive-card" data-target="certificates">
@@ -73,13 +77,14 @@
                             <h3 class="cert-label text-blue">Sertifikaatti</h3>
                             <i class="fa-solid fa-up-right-from-square text-muted"></i>
                         </div>
-                        <p class="cert-title">Introduction to Programming With C#</p>
+                        <p class="cert-title">Google Network Security Specialization</p>
                         <p class="cert-id">Suoritettu: 2026</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- About me -sivu -->
         <section id="about" class="view hidden-view">
             <div class="page-header">
                 <div>
@@ -90,9 +95,18 @@
             </div>
             
             <div class="content-container glass p-8 rounded-2xl">
-                <h3 class="text-xl font-bold mb-4 text-emerald">Tausta ja Visio</h3>
+                <h3 class="text-xl font-bold mb-4 text-emerald">Lyhyt versio</h3>
                 <p class="text-muted mb-4 leading-relaxed">
-                    Olen motivoitunut toisen vuoden IT-tradenomi opiskelija Hämeen ammattikorkeakoulussa, joka on omistautunut oppimaan ja kehittymään alalla. Tavoitteeni on rakentaa ura, jossa voin hyödyntää teknisiä taitojani ja intohimoani turvallisuuteen auttaakseni organisaatioita suojaamaan tietojaan ja infrastruktuuriaan.
+                    Olen tietoturvaan erikoistuva järjestelmäasiantuntija, joka on intohimoinen kyberturvallisuuden ja ohjelmistokehityksen parissa. 
+                    Minulla on vahva tausta asiakasrajapinnassa, ja olen kehittänyt taitojani penetraatiotestauksessa, verkkoturvallisuudessa ja ohjelmoinnissa. 
+                    Tavoitteeni on rakentaa ratkaisuja, jotka kestävät hyökkäyksiä ja suojaavat organisaatioiden tietoja.
+                </p>
+                <h3 class="text-xl font-bold mb-4 text-emerald">Pitkä versio</h3>
+                <p class="text-muted mb-4 leading-relaxed">
+                    Ennen kuin löysin tietoturvan, vietin yli kymmenen vuotta asiakasrajapinnassa, viimeksi tuholaistorjujana yritys- ja vakuutusasiakkaiden parissa. Se opetti minulle jotain, mitä ei kursseilta opi: miten pysyä rauhallisena, kun tilanne kärjistyy ja miten viedä hankalatkin asiat maaliin. 
+                    Tietokoneet, varsinkin komponentit ja Linux sekä Windows -järjestelmät ovat kulkeneet elämässäni mukana alusta alkaen: isälläni oli tapana vaihtaa vanhoista Windows -koneista Linux järjestelmiin, ja olen saanut jo nuorena tutustua tietokoneiden toimintaan ja ohjelmointiin. 
+                    Tämä on luonut pohjan, jolle olen rakentanut nykyisen osaamiseni.
+
                 </p>
                 <p class="text-muted mb-4 leading-relaxed">
                     Olen luonut Oraclen Virtuaboxilla oman virtuaaliympäristön, jossa harjoittelen penetraatiotestausta, lokien tarkastelua ja suojausta, työverkkoympäristön ylläpitoa ja nettiyhteyksien monitorointia. 
@@ -102,18 +116,19 @@
                     Nämä ovat kehittäneet teknisiä taitojani, ongelmanratkaisukykyäni ja kykyä työskennellä tiimissä.
 
 
-                    Olen myös suorittanut Google Professional Cybersecurity -sertifikaatin 7/8 osiota, joka on vahvistanut osaamistani verkkoturvallisuuden, uhkien tunnistamisen ja riskienhallinnan alueilla.
+                    Olen myös suorittanut Google Professional Cybersecurity ja Network Specialization -sertifikaatit, jotka ovat vahvistaneet osaamistani verkkoturvallisuuden, uhkien tunnistamisen ja riskienhallinnan alueilla.
                 </p>
                 
                 <h3 class="text-xl font-bold mt-8 mb-4 text-emerald">Tekninen pino</h3>
                 <ul class="tech-list text-muted">
-                    <li><strong class="text-main">Ohjelmointi:</strong> Python, JavaScript, Bash</li>
+                    <li><strong class="text-main">Ohjelmointi:</strong> Bash, JavaScript, HTML, Tailwind CSS, Python, SQL</li>
                     <li><strong class="text-main">Työkalut:</strong> Nmap, Metasploit, Splunk, Microsoft Sentinel, Burp Suite</li>
-                    <li><strong class="text-main">Järjestelmät:</strong> Linux (Kali/Ubuntu), Windows Server, Docker</li>
+                    <li><strong class="text-main">Järjestelmät:</strong> Docker, Linux (Kali/Ubuntu), Windows Server, MySQL, SSMS</li>
                 </ul>
             </div>
         </section>
 
+        <!-- Sertifikaatit ja Koulutukset -->
         <section id="certificates" class="view hidden-view">
             <div class="page-header">
                 <div>
@@ -123,6 +138,24 @@
                 <button class="back-btn nav-trigger" data-target="home">&larr; Takaisin</button>
             </div>
 
+
+            <!-- Perus pohja uudelle sertille -->
+            <!-- 
+                <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-shield" style="color: rgb(31, 53, 211); font-size: 24px;"></i>
+                        <span class="status-badge active">Voimassa</span>
+                    </div>
+                    <h3 class="project-title">Sertifikaatti</h3>
+                    <p class="project-desc">
+                        tekstiä
+                    </p>
+                    <div class="cert-details mt-4 text-sm text-muted">
+                        <p><strong>Suoritettu:</strong> 2026</p>
+                        <p><strong>Verify :</strong>NUMEROSARJA</p>
+                    </div> 
+                -->
             
             <div class="project-grid">
                 <div class="project-card">
@@ -130,17 +163,33 @@
                         <i class="fa-solid fa-shield" style="color: rgb(31, 53, 211); font-size: 24px;"></i>
                         <span class="status-badge active">Voimassa</span>
                     </div>
-                    <h3 class="project-title">Google Professional Cybersecurity</h3>
+                    <h3 class="project-title">Google Professional Cybersecurity (v2)</h3>
                     <p class="project-desc">
-                        Kattaa verkkoturvallisuuden, Pythonin, Linuxin ja SQL:än perusteet, uhkien tunnistamisen ja riskienhallinnan.
+                        Google Professional Cybersecurity -sertifikaatti on osoitus syvällisestä osaamisesta kyberturvallisuuden alalla. Sertifikaatti kattaa laajan valikoiman aiheita, kuten uhkien tunnistamisen, riskienhallinnan, tietoturvapolitiikat ja -prosessit, sekä käytännön taidot turvallisuuden varmistamiseksi organisaatioissa. 
+                        Sertifikaatin suorittaminen edellyttää vahvaa teoreettista tietämystä ja käytännön taitoja, jotka ovat välttämättömiä nykypäivän kyberturvallisuusympäristössä.
                     </p>
                     <div class="cert-details mt-4 text-sm text-muted">
-                        <p><strong>Suoritettu:</strong> 1/2026</p>
-                        <p><strong>Verify ID (LATEST):</strong>P5TK1GM3V9TJ</p>
+                        <p><strong>Suoritettu:</strong> 2026</p>
+                        <p><strong>Verify :</strong>8S63U958Y26A</p>
                     </div>
-                    <a href="https://www.coursera.org/account/accomplishments/verify/P5TK1GM3V9TJ" target ="_blank" class="cert-verify-link mt-4 inline-block">Varmenna sertifikaatti &rarr;</a>
+                    <a href="https://coursera.org/share/0a059fd105c6a721eb7b8497cc8b67a1" target ="_blank" class="cert-verify-link mt-4 inline-block">Varmenna sertifikaatti &rarr;</a>
                 </div>
-
+             <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-shield" style="color: rgb(31, 53, 211); font-size: 24px;"></i>
+                        <span class="status-badge active">Voimassa</span>
+                    </div>
+                    <h3 class="project-title">Google Network Security Specialization</h3>
+                    <p class="project-desc">
+                        Syventävä koulutus verkkoturvallisuudesta, SIEM-työkaluista, uhkien tunnistamisesta ja riskienhallinnasta. Kattaa myös penetraatiotestauksen perusteet.
+                    </p>
+                    <div class="cert-details mt-4 text-sm text-muted">
+                        <p><strong>Suoritettu:</strong> 2026</p>
+                        <p><strong>Verify :</strong>PRILXKYNM17V</p>
+                    </div>
+                    <a href="https://coursera.org/share/3e395d8b5011f84a9080997fd691e1b5" target ="_blank" class="cert-verify-link mt-4 inline-block">Varmenna sertifikaatti &rarr;</a>
+                </div>
                 <div class="project-card">
                     <div class="project-card-header">
                         
@@ -156,8 +205,28 @@
                         <p><strong>Verify ID:</strong>UMGWT1D1U8VA</p>
                     </div>
                     <a href="https://www.coursera.org/account/accomplishments/verify/UMGWT1D1U8VA" target ="_blank" class="cert-verify-link mt-4 inline-block">Varmenna sertifikaatti &rarr;</a>
+                </div><br>
+
+                <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-shield" style="color: rgb(31, 53, 211); font-size: 24px;"></i>
+                        <span class="status-badge active">Voimassa</span>
+                    </div>
+                    <h3 class="project-title">Technical Support Fundamentals</h3>
+                    <p class="project-desc">
+                        Google Technical Support Fundamentals -sertifikaatti on suunniteltu tarjoamaan perustiedot IT-tuesta ja teknisestä asiakaspalvelusta. Sertifikaatti kattaa keskeiset käsitteet, kuten tietokoneiden ja verkkojen perusteet, vianmäärityksen, ohjelmistojen asennuksen ja ylläpidon, sekä asiakaspalvelutaidot. 
+                        Sertifikaatin suorittaminen antoi minulle valmiudet toimia IT-tukihenkilönä ja ratkaista teknisiä ongelmia tehokkaasti.
+                    </p>
+                    <div class="cert-details mt-4 text-sm text-muted">
+                        <p><strong>Suoritettu:</strong> 2026</p>
+                        <p><strong>Verify :</strong>0YHLPFBN0KIF</p>
+                    </div>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/0YHLPFBN0KIF" target ="_blank" class="cert-verify-link mt-4 inline-block">Varmenna sertifikaatti &rarr;</a>
                 </div>
-                
+
+
+                <!-- Viimeinen "sertti" -->
                 <div class="project-card placeholder">
                     <p>Opiskelussa: Google professional IT-support certificate...</p>
                 </div>
