@@ -1,27 +1,47 @@
 # Jaakko Kulmala | Applied Cybersecurity & Cloud Engineering
 
-I am on Team Blue, ready to tackle Cloud-infrastructure and SOC problems with background of pest control and restaurant worker.
+I build secure infrastructure, analyze risks, and bridge the gap between technical security and business operations.
 
-## Core projects & architecture
+Transitioning over 6 years of experience in hands-on B2B/B2C risk auditing, preventative planning, and high-pressure operational management into enterprise cybersecurity. I don't just run security tools; I understand how to integrate security controls into agile software development and heavily regulated environments. Currently focusing on IAM, Zero Trust architectures, and SOC operations.
 
-* **2-Tier PKI & mTLS Mini-CA:**  Designed and implemented a Public Key Infrastructure (PKI) and mutual TLS authentication. The project demonstrates an understanding of cryptography, certificate management, and secure data transmission.
+## Core projects & Architecture
 
-* **Outcastwikisites:** Created fully functional and responsive on mobile web page where players can find quest guides for the game named Outcastserver. This was made alone from start to finish without AI and is still being managed my me.
+ **2-Tier PKI & mTLS Proof-of-Concept:**
+ 
+**Focus:** Cryptography, Identity & Access Management (IAM), Secure Infrastructure
 
-* **Blue Team virtualization Lab:** Built isolated test environments (VirtualBox: Windows, Ubuntu, Kali Linux) for threat modeling, log analysis and network traffic monitoring.
+* Designed and implemented an isolated Public Key Infrastructure (PKI) using VirtualBox.
 
- ## Tech stack & Certifications
+* Configured Root and Subordinate Certificate Authorities to establish a chain of trust.
 
-* Certifications: Google Professional Cybersecurity, Google Network Specialization, AWS Cloud Foundations
+* Successfully implemented mutual TLS (mTLS) authentication, demonstrating a practical understanding of secure data transmission and Zero Trust principles.
 
-* Cloud & Infrastructure: Azure, Virtualization, Networking (TCP/IP, DNS, VPN)
+ **Outcastwikisites - Full-Stack Web Development:**
+ 
+ **Focus:** Web Architecture, UX/UI, Full Project Lifecycle Ownership
 
-* Automation & Development: Python, RPA (UiPath), SQL/MySQL
+* Architected and deployed a fully functional, mobile-responsive web application serving as a comprehensive quest guide for the Outcastserver community.
 
-* Methodologies: Agile, Scrum, Incident response, Risk modeling
+* Managed the entire software development lifecycle (SDLC) independently—from initial requirement gathering and database design to deployment and ongoing maintenance.
+
+**Blue Team virtualization Lab:**
+
+**Focus:** Incident Response, Threat Modeling, Network Security
+
+* Built isolated test environments deploying Windows, Ubuntu, and Kali Linux.
+
+* Configured environments for hands-on threat modeling, log analysis, and network traffic monitoring.
+
+* Simulating enterprise SOC environments to practice identifying and mitigating attack vectors.
+
+ ## Certifications
+
+ * Google Professional Cybersecurity
+ * Google Network Specialization
+ * AWS Cloud Foundations
 
   ## Contact Information
 
-  I am looking for opportunities in SOC, Blue Team and Cloud infrastructure roles.
+I am actively seeking opportunities in SOC, Blue Team, and Cloud Infrastructure roles where I can combine my analytical troubleshooting skills with enterprise-grade security tools.
 
   * LinkedIn: https://www.linkedin.com/in/jaakko-kulmala-ba85932b4/
