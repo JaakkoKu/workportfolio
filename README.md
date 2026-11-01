@@ -1,5 +1,7 @@
 # Jaakko Kulmala | Applied Cybersecurity & Cloud Engineering
 
+**Site:** https://jaakkoku.github.io/workportfolio/
+
 I build secure infrastructure, analyze risks, and bridge the gap between technical security and business operations.
 
 Transitioning over 6 years of experience in hands-on B2B/B2C risk auditing, preventative planning, and high-pressure operational management into enterprise cybersecurity. I don't just run security tools; I understand how to integrate security controls into agile software development and heavily regulated environments. Currently focusing on IAM, Zero Trust architectures, and SOC operations.
