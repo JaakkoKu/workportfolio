@@ -32,7 +32,7 @@
                 <button class="nav-trigger" data-target="about">Introduction</button>
                 <button class="nav-trigger" data-target="certificates">Certificates</button>
                 <button class="nav-trigger" data-target="projects">Projects</button>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact-grid" class="nav-link">Contact</a>
             </div>
         </div>
     </nav>
@@ -47,7 +47,7 @@
                         Applied <span class="highlight">Cybersecurity</span> & <span class ="highlight">Cloud </span>Engineering
                     </h1>
                     <p class="hero-desc">
-                        In my professional development, I focus primarily on cybersecurity and cloud technology. My goal is to build a career in these fields and use my expertise to protect digital assets and advance secure cloud solutions.
+                        In my professional development, I focus primarily on cybersecurity, more specifically on SOC (Security Operations Center) operations, and cloud infrastructure. My goal is to build a career in these fields and use my expertise to protect digital assets and advance secure cloud solutions.
                     </p>
                     <button class="primary-btn nav-trigger" data-target="about">
                         Read more about me <i class="fa-solid fa-arrow-right ml-2"></i>
@@ -183,7 +183,7 @@
                     </p>
                     <div class="cert-details mt-4 text-sm text-muted">
                         <p><strong>Completed:</strong> 2026</p>
-                        <p><strong>Verify :</strong>8S63U958Y26A</p>
+                        <p><strong>Verify ID:</strong>8S63U958Y26A</p>
                     </div>
                     <a href="https://coursera.org/share/0a059fd105c6a721eb7b8497cc8b67a1" target ="_blank" class="cert-verify-link mt-4 inline-block">Verify certificate &rarr;</a>
                 </div>
@@ -199,7 +199,7 @@
                     </p>
                     <div class="cert-details mt-4 text-sm text-muted">
                         <p><strong>Completed:</strong> 2026</p>
-                        <p><strong>Verify :</strong>PRILXKYNM17V</p>
+                        <p><strong>Verify ID:</strong>PRILXKYNM17V</p>
                     </div>
                     <a href="https://coursera.org/share/3e395d8b5011f84a9080997fd691e1b5" target ="_blank" class="cert-verify-link mt-4 inline-block">Verify certificate &rarr;</a>
                 </div>
@@ -233,7 +233,7 @@
                     </p>
                     <div class="cert-details mt-4 text-sm text-muted">
                         <p><strong>Completed:</strong> 2026</p>
-                        <p><strong>Verify :</strong>0YHLPFBN0KIF</p>
+                        <p><strong>Verify ID:</strong>0YHLPFBN0KIF</p>
                     </div>
                     <a href="https://www.coursera.org/account/accomplishments/verify/0YHLPFBN0KIF" target ="_blank" class="cert-verify-link mt-4 inline-block">Verify certificate &rarr;</a>
                 </div>
@@ -275,9 +275,9 @@
                 <div class="project-card">
                     <div class="project-card-header">
                         <i class="fa-solid fa-briefcase icon-emerald"></i>
-                        <a href="Undrerstanding DevOps.docx.pdf" target="_blank" class="github-link"><i class="fa-regular fa-file-lines"></i></a>
+                        <a href="understanding_devops.pdf" target="_blank" class="github-link"><i class="fa-regular fa-file-lines"></i></a>
                     </div>
-                    <a href="Undrerstanding DevOps.docx.pdf" class="project-title-link" target="_blank"><h3 class="project-title">Understanding DevOps: report</h3></a>
+                    <a href="understanding_devops.pdf" class="project-title-link" target="_blank"><h3 class="project-title">Understanding DevOps: report</h3></a>
                     <p class="project-desc">
                         A report explaining what DevOps means, its practices and principles, and its benefits in working life. The Netflix case study is used as an example.
                     </p>
@@ -310,11 +310,11 @@
                 <div class="project-card">
                     <div class="project-card-header">
                         <i class="fa-solid fa-code icon-emerald"></i>
-                        <a href="Suljetun testiverkon toteuttaminen VirtualBox-ympäristössä.pdf" target="_blank" class="github-link"><i class="fa-regular fa-file-lines"></i></a>
+                        <a href="isolated_test_network_virtualbox.pdf" target="_blank" class="github-link"><i class="fa-regular fa-file-lines"></i></a>
                     </div>
-                    <a href="Suljetun testiverkon toteuttaminen VirtualBox-ympäristössä.pdf" class="project-title-link" target="_blank"><h3 class="project-title">Implementing an isolated test network in a VirtualBox environment</h3></a>
+                    <a href="isolated_test_network_virtualbox.pdf" class="project-title-link" target="_blank"><h3 class="project-title">Implementing an isolated test network in a VirtualBox environment</h3></a>
                     <p class="project-desc">
-                        Three virtual machines created in a VirtualBox environment using an Internal Network without an internet connection. The work is documented in Google Docs and saved as a PDF shared by link.
+                        Three virtual machines created in a VirtualBox environment using an Internal Network without an internet connection.
                     </p>
                     <div class="tag-group">
                         <span class="tag">VirtualBox</span>
@@ -342,31 +342,35 @@
                 </div> -->
             </div>
         </section>
+ 
 
-        <section id="contact" class="contact-section">
-            <div class="contact-container glass">
-                <h2 class="section-title">Contact me</h2>
-                <form action="https://formspree.io/f/mvgejgnq" method="POST" class="contact-form">
-                    <div class="form-group">
-                        <label class="mono">Name</label>
-                        <input type="text" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="mono">Email</label>
-                        <input type="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="mono">Message</label>
-                        <textarea name="message" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">SEND</button>
-                </form>
-            </section>
-    </main>
+        <div class="contact-grid" id="contact-grid">
+            <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <a id="email-link" href="#" class="contact-link">Ladataan...</a>
+        </div>
+
+    <div class="contact-item">
+        <span class="contact-label">Phone</span>
+        <a id="phone-link" href="#" class="contact-link">Ladataan...</a>
+    </div>
+
+    <div class="contact-item">
+        <span class="contact-label">LinkedIn</span>
+        <a href="https://linkedin.com/in/jaakko-kulmala-ba85932b4" target="_blank" rel="noopener noreferrer" class="contact-link">Jaakko Kulmala</a>
+    </div>
+
+    <div class="contact-item">
+        <span class="contact-label">GitHub</span>
+        <a href="https://github.com/JaakkoKu" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/JaakkoKu</a>
+    </div>
+</div>
+        </main>
 
     <footer>
-        <p>&copy; 2026 | Jaakko Kulmala's Portfolio | <span class="mono">No system is safe.</span></p>
+        <p>&copy; 2026 | <a href="https://github.com/JaakkoKu" target="_blank">Jaakko Kulmala's Portfolio</a> | <span class="mono">No system is safe.</span></p>
     </footer>
 
 </body>
 </html>
+

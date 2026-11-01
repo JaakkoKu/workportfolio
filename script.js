@@ -35,3 +35,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+    const user = "jaakko-kulmala";
+    const domain = "hotmail.com";
+    const emailElement = document.getElementById("email-link");
+    
+    emailElement.href = "mailto:" + user + "@" + domain;
+    emailElement.innerText = user + "@" + domain;
+
+    const countryCode = "+358"
+    const rawNumber = "503217681";
+    const displayFormat = "050 321 7681";
+
+    const phoneElement = document.getElementById("phone-link");
+    phoneElement.href = "tel:" + countryCode + rawNumber;
+    phoneElement.innerText = countryCode + " " + rawNumber;
+    phoneElement.innerText = displayFormat;
