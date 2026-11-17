@@ -42,12 +42,3 @@ document.addEventListener('DOMContentLoaded', () => {
     
     emailElement.href = "mailto:" + user + "@" + domain;
     emailElement.innerText = user + "@" + domain;
-
-    const countryCode = "+358"
-    const rawNumber = "503217681";
-    const displayFormat = "050 321 7681";
-
-    const phoneElement = document.getElementById("phone-link");
-    phoneElement.href = "tel:" + countryCode + rawNumber;
-    phoneElement.innerText = countryCode + " " + rawNumber;
-    phoneElement.innerText = displayFormat;
